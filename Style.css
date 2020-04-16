@@ -1,0 +1,64 @@
+ html {
+            background-color: lightgreen;
+        }
+        .div1 {
+            width: 100%;
+            height: 200px;
+        }
+        .divi1-2 {
+            width: 50%;
+            float: left;
+        }
+        ul {
+            position: relative;
+            top: 50px;
+            left:250px;
+        }
+        ul>li {
+            display: inline;
+        }
+        li > a {
+            text-decoration: none;
+        }
+        .divi1-3 {
+            width: 50%;
+            float: right;
+        }
+        .input {
+            border-radius: 25px;
+            padding-top: 30px;
+            height: 250px;
+            width: 250px;
+            background-color: cornflowerblue;
+        }
+        .input  a{
+            /*margin-left: 40px;*/
+            padding-left: 20px;
+            padding-right: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 19px;
+            display: inline;
+            border-left: 1px solid white;
+        }
+        .login {
+            margin-top: 50px;
+        }
+        .input label {
+            margin-top: 30px;
+            padding-top: 30px;
+        }
+        .name {
+            border-radius: 20px;
+            width: 70%;
+        }
+        .button {
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            background-color: green;
+        }
+		.Repository {
+			text-align: center;
+			margin-top: 20px;
+		}
